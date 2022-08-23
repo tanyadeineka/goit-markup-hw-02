@@ -1,0 +1,233 @@
+:root {
+    --bcg-black: #2F303A;
+    --bcg-main: #F5F4FA;
+    --accent-color: #2196F3;
+    --primary-text-color: #212121;
+    --secondary-text-color: #757575;
+    --footer-contacts: rgba(255, 255, 255, 0.6);
+    --black-color: #000000;
+    --white-color: #FFFFFF;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    background-color: var(--white-color);
+    color: var(--primary-text-color);
+}
+
+     /* Логотип */
+
+.logo {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--accent-color);
+    text-decoration: none;
+}
+.h-studio {
+    color: var(--black-color);
+}
+
+     /* Навігація по сторінкам*/
+
+.nav-links {
+    list-style: none;
+}
+.nav-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color);
+    text-decoration: none;
+}
+.nav-link:hover,
+.nav-link:focus {
+    color: var(--accent-color);
+}
+.active {
+    color: var(--accent-color);
+}
+
+     /* Контакти в хедері */
+
+.contacts-list {
+    list-style: none;
+}
+.contacts {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--secondary-text-color);
+    text-decoration: none;
+}
+.contacts:hover,
+.contacts:focus {
+    color: var(--accent-color);
+}
+
+     /* Секція main - заголовок з кнопкою*/
+
+.main-title {
+    background-color: var(--bcg-black);
+}
+.title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    color: var(--white-color);
+    text-align: center;
+}
+.main-button {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+    color: var(--white-color);
+    background-color: var(--accent-color);
+    border: none;
+    cursor: pointer;
+}
+
+    /* Заголовки h2 */
+
+.features, .work, .command {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+    /* Секція - Особливості*/
+
+.features-list {
+    list-style: none;
+}
+.feature{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+.description {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: var(--secondary-text-color);
+}
+
+    /* Секція - Чим ми займаємося */
+
+.work-list {
+    list-style: none;
+}
+
+    /* Секція - Наша команда*/
+
+.command-section {
+    background-color: var(--bcg-main);
+}
+.command-list {
+    list-style: none;
+}
+.command-box {
+    background-color: var(--white-color);
+}
+.command-name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+}
+.vocation {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+    color: var(--secondary-text-color);
+}
+
+    /* Футер */
+
+.footer-section {
+    background-color: var(--bcg-black);
+}
+.f-studio{
+    color: var(--white-color);
+}
+.links {
+    font-style: inherit;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;    
+}
+.links-list {
+    list-style: none;
+}
+.map-link {
+    color: var(--white-color);
+    text-decoration: none;
+}
+.contact-link {
+    color: var(--footer-contacts);
+    text-decoration: none;
+}
+.contact-link:hover,
+.contact-link:focus {
+    color: var(--accent-color);
+}
+
+     /* Портфоліо */
+
+    /* Фільтри*/
+
+.filters {
+    list-style: none;
+}
+.filters-btn {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+    background-color: var(--bcg-main);
+    border: none;
+    cursor: pointer;
+}
+.filters-btn:hover,
+.filters-btn:focus {
+    color: var(--white-color);
+    background-color: var(--accent-color);
+}
+
+    /* Проєкти */
+
+.projects {
+    list-style: none;
+}
+.projects-container {
+    text-decoration: none;
+}
+.project-name {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--primary-text-color);
+}
+.project-kind {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
+    color: var(--secondary-text-color);
+}
